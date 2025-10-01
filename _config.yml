@@ -1,0 +1,15 @@
+# サイト基本情報（あとで書き換えてOK）
+name: "シュララ・漫画タブ"
+description: "漫画を5ページでサッと読める配信用サイト"
+url: "https://hagiple.github.io"   # ← あなたのGitHubユーザー名に合わせて変更可
+baseurl: "/sample_esk"             # ← このリポジトリ名のままでOK
+
+# Jekyll設定
+markdown: kramdown
+theme: minima
+permalink: /:year/:month/:day/:title/
+exclude: ["README.md"]
+
+# 画像の既定幅（メモ用途）
+image_width: 1200
+image_height: 675
